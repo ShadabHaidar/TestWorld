@@ -15,8 +15,56 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="slg-TB-Qtm">
+                                <rect key="frame" x="40" y="194" width="334" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Adu-EY-sA1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pS9-Ze-vZv">
+                                <rect key="frame" x="40" y="284" width="334" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="gPM-87-aMT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fDt-hS-62i">
+                                <rect key="frame" x="40" y="374" width="334" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QIQ-fR-XJ5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bwW-ER-oOn">
+                                <rect key="frame" x="40" y="464" width="334" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="55U-C2-U2O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstItem="bwW-ER-oOn" firstAttribute="top" secondItem="fDt-hS-62i" secondAttribute="bottom" constant="40" id="77Q-Xb-wLI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bwW-ER-oOn" secondAttribute="trailing" constant="40" id="Ayj-wz-mAL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="slg-TB-Qtm" secondAttribute="trailing" constant="40" id="HgJ-d7-XQx"/>
+                            <constraint firstItem="slg-TB-Qtm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="194" id="IYl-2z-iAl"/>
+                            <constraint firstItem="slg-TB-Qtm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MK8-zc-7kH"/>
+                            <constraint firstItem="pS9-Ze-vZv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QA3-Ur-4zj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pS9-Ze-vZv" secondAttribute="trailing" constant="40" id="Urx-Bg-d7q"/>
+                            <constraint firstItem="fDt-hS-62i" firstAttribute="top" secondItem="pS9-Ze-vZv" secondAttribute="bottom" constant="40" id="V4o-Bv-Frg"/>
+                            <constraint firstItem="pS9-Ze-vZv" firstAttribute="top" secondItem="slg-TB-Qtm" secondAttribute="bottom" constant="40" id="fXI-Pn-gWf"/>
+                            <constraint firstItem="bwW-ER-oOn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nqT-JW-VWg"/>
+                            <constraint firstItem="fDt-hS-62i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w1I-d4-XF2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fDt-hS-62i" secondAttribute="trailing" constant="40" id="x3F-62-cCv"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -25,8 +73,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
